@@ -1,0 +1,14 @@
+.add-product-button button{
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.add-product-button button:hover{
+  background-color: #05a9e4;
+  color: white;
+}

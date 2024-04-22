@@ -1,0 +1,143 @@
+.product-review-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-delete-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  margin-left: 10px;
+}
+
+.delete-product-button {
+  margin-right: 10px;
+}
+
+.product-name {
+  text-align: center;
+  color: darkblue;
+  font-size: 32px;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+}
+
+.product-release,
+.product-avg-rating {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.product-image {
+  max-width: 150px;
+  max-height: 200px;
+}
+
+.add-review h3 {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.add-review-title label,
+.add-review-reivewtitle {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.add-review-title input {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-review-title button:hover {
+  background-color: #17a2b8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.comments-toggle {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.comments-list {
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.comments-list.hidden {
+  max-height: 0;
+  opacity: 0;
+}
+
+.add-review button {
+  background-color: #05a9e4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.add-review button:hover {
+  background-color: black;
+  color: white;
+}
+
+.back-button button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.back-button button:hover {
+  background-color: #05a9e4;
+  color: white;
+}
+
+.delete-action {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.delete-product-button button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.delete-product-button button:hover {
+  background-color: #05a9e4;
+  color: white;
+}
